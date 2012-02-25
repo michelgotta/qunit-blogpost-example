@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>QUnit Test Suite</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<style type="text/css" media="screen">
+		#email {
+			padding: 6px;
+			font-size: 16px;
+			border: 1px solid black;
+		}
+		.error {
+			color: red;
+			border: 1px solid red!important;
+		}
+	</style>
+</head>
+<body>
+	<h1>Test Interface</h1>
+	<div id="dialog" style="border: 1px solid #ddd; padding: 18px 8px; background: #eee">
+		This is some dialog window
+		<a href="#" id="close-dialog">Close Dialog</a>
+	</div>
+	<hr>
+	<form action="#" method="post" accept-charset="utf-8">
+		<input type="text" name="email" value="" id="email">
+		<p><input type="submit" value="Continue &rarr;"></p>
+	</form>
+	<hr>
+	This example belongs to the blogpost <a href="http://michelgotta.posterous.com/user-interfaces-and-unittesting-with-qunit-an#" target="_blank">User Interfaces and Unittesting with the QUnit framework and jQuery</a>.
+</body>
